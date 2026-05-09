@@ -14,10 +14,16 @@
 - VS Code ✅
 - Poetry: НЕ устанавливали (отложили, пока не нужен)
 
+## GitHub
+https://github.com/TippenDel/ai-learning
+
 ## Текущий статус
-- День 1 начат
-- Создана папка ai-learning
-- Пишем day01.py — первый Python код
+- День 1 ✅ — переменные, списки, словари, циклы, классы
+- День 2 ✅ — функции, JSON, фильтрация данных
+- День 3 ✅ — AI API через OmniRoute/Kiro, dotenv, system prompt
+- День 4 — следующий (консольный чат с историей диалога)
+- Git настроен, код на GitHub запушен
+- OmniRoute: base_url=http://localhost:20128/v1, модель=kr/claude-haiku-4.5
 
 ---
 
