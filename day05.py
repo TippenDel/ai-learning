@@ -20,6 +20,10 @@ class Message(BaseModel):
 def root():
     return {"status": "ok"}
 
+@app.get("/health")
+def health():
+    return {"status": "ok", "version": "1.0"}
+
 @app.post("/chat")
 def chat(message: Message):
     response = client.chat.completions.create(
