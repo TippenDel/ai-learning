@@ -25,6 +25,9 @@ https://github.com/TippenDel/ai-learning
 - fastapi_server.py ✅ — FastAPI сервер, эндпоинты, Swagger UI, curl
 - fastapi_history.py ✅ — история чата в API, DELETE/GET /history
 - telegram_bot.py ✅ — Telegram бот с AI, история на пользователя, polling
+- rag.py ✅ — RAG с нуля: загрузка документа, чанки, keyword поиск, ответ по контексту
+- Следующий шаг: RAG с embedding поиском через векторную БД
+- .venv настроен — виртуальное окружение в папке проекта
 - Следующий шаг: RAG — читаем PDF, отвечаем на вопросы по документу
 - Git настроен, код на GitHub запушен
 - OmniRoute: base_url=http://localhost:20128/v1, модель=kr/claude-haiku-4.5
